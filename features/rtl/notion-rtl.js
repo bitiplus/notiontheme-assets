@@ -32,10 +32,10 @@ function getListItems() {
 }
 
 function setBlocksDirectionToAuto() {
-  // const blocks = getTopLevelBlocksWithoutDirAttribute();
-  // blocks.forEach((block) => {
-  //   block.setAttribute('dir', 'auto')
-  // })
+  const blocks = getTopLevelBlocksWithoutDirAttribute();
+  blocks.forEach((block) => {
+    block.setAttribute("dir", "auto");
+  });
 }
 
 function getTopLevelBlocksWithoutDirAttribute() {
@@ -52,8 +52,8 @@ function getTopLevelBlocksWithoutDirAttribute() {
 
 function alignPageContentToRight() {
   console.log("alignPageContentToRight");
-  // setBlocksDirectionToAuto();
-  // alignListItemsToRight();
+  setBlocksDirectionToAuto();
+  alignListItemsToRight();
 }
 
 // === Main entry point
