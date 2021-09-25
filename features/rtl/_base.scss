@@ -1,0 +1,11 @@
+div.notion-frame div > svg,
+div.notion-frame div > img {
+  margin-left: 6px;
+}
+
+div > svg.dots,
+div.notion-frame div > svg.dragHandle,
+div.notion-collection-view-item-add svg,
+.notion-topbar div > img {
+  margin-left: 0px !important;
+}

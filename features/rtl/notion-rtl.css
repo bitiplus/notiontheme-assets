@@ -1,0 +1,24 @@
+@charset "UTF-8";
+div.notion-frame div > svg,
+div.notion-frame div > img {
+  margin-left: 6px;
+}
+
+div > svg.dots,
+div.notion-frame div > svg.dragHandle,
+div.notion-collection-view-item-add svg,
+.notion-topbar div > img {
+  margin-left: 0px !important;
+}
+
+/* -------------------------------- 📌 Page Content 📌 -------------------------------- */
+div.notion-frame > div:nth-child(2) > div:not(first-child) {
+  direction: rtl !important;
+}
+
+/* div.notion-page-content div[contenteditable="true"] */
+div.notion-page-content > div {
+  text-align: right;
+}
+
+/*# sourceMappingURL=notion-rtl.css.map */
