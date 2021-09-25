@@ -1,0 +1,9 @@
+/* --------------------------------- Gallery -------------------------------- */
+div.notion-gallery-view a > div > div:last-child {
+  padding-right: 10px;
+  padding-left: 0px !important;
+}
+/* Align Tags Props */
+div.notion-gallery-view a > div > div > div > div > div {
+  margin: 0px !important;
+}

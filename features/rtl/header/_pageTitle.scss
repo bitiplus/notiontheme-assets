@@ -1,0 +1,10 @@
+/* -------------------------------- 📌 Page Header 📌 -------------------------------- */
+div.notion-frame > div:nth-child(2) > div:first-child {
+  direction: rtl;
+}
+
+/* Page Title */
+div[placeholder="Untitled"] {
+  left: 0px;
+  right: auto !important;
+}

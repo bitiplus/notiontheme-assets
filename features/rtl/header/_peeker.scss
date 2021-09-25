@@ -1,0 +1,21 @@
+/* -------------------------------- 📌 Page Peeker 📌 ------------------------------- */
+div.notion-peek-renderer > div:nth-child(2) > div.notion-scroller.vertical {
+  direction: rtl;
+}
+div.notion-peek-renderer div.notion-page-content div {
+  text-align: right !important;
+}
+
+div.notion-peek-renderer
+  > div
+  > div.notion-scroller
+  > div:nth-child(2)
+  div:first-child
+  > svg {
+  margin-left: 6px;
+}
+
+div.notion-page-view-discussion > div > div > div:first-child {
+  margin-right: 0px !important;
+  margin-left: 8px;
+}

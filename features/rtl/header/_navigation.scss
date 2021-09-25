@@ -1,0 +1,17 @@
+/* -------------------------------- 📌 Navigation 📌 -------------------------------- */
+div.notion-sidebar-container {
+  /* order: 1; */
+}
+
+div.notion-topbar > div:first-child,
+div.notion-topbar > div:nth-child(1) > div:nth-child(3) {
+  /* flex-direction: row-reverse; */
+}
+
+div.notion-topbar > div:nth-child(1) > div:nth-child(3) > div {
+  direction: ltr;
+}
+
+div.notion-topbar > div > div:first-child {
+  flex-direction: row-reverse;
+}

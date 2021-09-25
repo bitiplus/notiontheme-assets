@@ -1,3 +1,5 @@
+/* -------------------------------- 📌 Global Effects 📌 -------------------------------- */
+/* Make sure that icons has spacing */
 div.notion-frame div > svg,
 div.notion-frame div > img {
   margin-left: 6px;
@@ -9,3 +11,10 @@ div.notion-collection-view-item-add svg,
 .notion-topbar div > img {
   margin-left: 0px !important;
 }
+
+/* ButtonsIcon that need to be centered. */
+/* div.notion-frame a > div > svg,
+div.notion-topbar-more-button > svg,
+.notion-collection_view-block svg.dots {
+  margin-left: 0px !important;
+} */

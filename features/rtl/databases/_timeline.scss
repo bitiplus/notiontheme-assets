@@ -1,0 +1,35 @@
+/* -------------------------------- Timeline View  -------------------------------- */
+
+div.notion-timeline-view {
+  direction: ltr !important;
+}
+div.notion-timeline-view > div .notion-collection_view_page-block,
+div.notion-timeline-view .notion-timeline-item-properties .notranslate {
+  direction: rtl;
+}
+
+div.notion-timeline-view
+  > div:nth-child(5)
+  > div
+  > div:nth-child(5)
+  > div
+  > div {
+  justify-content: flex-start !important;
+  padding-right: 0px !important;
+  flex-direction: row-reverse;
+}
+
+div.notion-timeline-view .notion-collection-item a {
+  left: 6px;
+  right: auto !important;
+}
+
+.notion-overlay-container.notion-default-overlay-container .notranslate {
+  text-align: right !important;
+  direction: rtl;
+}
+
+/* .notion-timeline-view .notion-timeline-item-properties {
+  }
+  .notion-timeline-view .notion-collection_view_page-block {
+  } */

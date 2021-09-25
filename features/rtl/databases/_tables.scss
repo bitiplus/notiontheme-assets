@@ -1,0 +1,20 @@
+/* ---------------------------------- Table --------------------------------- */
+div.notion-table-view {
+  float: right !important;
+}
+/* Table: Header Cells */
+div.notion-table-view div.notion-table-view-header-cell > div > div > div {
+  margin-left: 6px;
+  margin-right: 0px !important;
+}
+div.notion-table-view div.notion-collection-item a {
+  right: auto !important;
+  left: 6px;
+}
+div.notion-table-view > div > div:nth-last-child(2) {
+  padding-right: 0px !important;
+  padding-left: 32px !important;
+}
+div.notion-table-view > div > div:nth-last-child(2) div {
+  flex-direction: row-reverse !important;
+}

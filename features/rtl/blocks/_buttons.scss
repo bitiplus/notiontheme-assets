@@ -1,0 +1,20 @@
+/* -------------------------------- 📌 UI: buttons, icons, blocks 📌 -------------------------------- */
+/* Database New Button */
+div.notion-collection_view-block div.notion-collection-view-item-add {
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  margin-left: 0px !important;
+}
+
+/* Gallery Page Icon */
+div.notion-gallery-view div.notion-collection-item div.notion-record-icon {
+  float: right !important;
+  margin-right: -2px !important;
+  margin-left: 4px !important;
+}
+
+/* Div Buttons with Icons */
+div.notion-page-controls div[role="button"] > svg {
+  margin-left: 6px;
+  margin-right: 0px !important;
+}
