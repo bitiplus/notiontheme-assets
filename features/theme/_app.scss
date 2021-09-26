@@ -1,0 +1,23 @@
+#notion-app
+  > div
+  > div.notion-overlay-container.notion-default-overlay-container
+  > div:nth-child(2)
+  > div
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(3) {
+  background: inherit !important;
+}
+.notion-peek-renderer > div:nth-child(2) > div:first-child {
+  background: var(--bg2) !important;
+}
+.notion-overlay-container > :last-child {
+  background: inherit !important;
+}
+.notion-peek-renderer > div:nth-child(2) > div:first-child div {
+  /*     color: var(--gray6) !important; */
+}
+.notion-peek-renderer > div:nth-child(2) > div:first-child div:hover {
+  background: inherit !important;
+}

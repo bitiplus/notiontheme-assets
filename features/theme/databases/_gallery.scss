@@ -1,0 +1,43 @@
+/* --------------------------------- Gallery -------------------------------- */
+[data-selector="Blog"] div.notion-gallery-view div.notion-collection-item > a {
+  box-shadow: var(--shadow1) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+}
+
+div.notion-gallery-view div.notion-collection-item > a {
+  background: var(--bg) !important;
+}
+
+div.notion-gallery-view > .notion-collection_view-block {
+  padding-bottom: 50px !important;
+}
+[data-selector="Blog"]
+  div.notion-gallery-view
+  div.notion-collection-item
+  > a:hover {
+  transform: scale(1.01);
+  z-index: 10;
+}
+
+[data-selector="Blog"] div.notion-gallery-view div.notion-collection-item > a {
+  box-shadow: var(--shadow1) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+}
+
+[data-selector="Blog"]
+  div.notion-gallery-view
+  div.notion-collection-item
+  > a:hover {
+  box-shadow: var(--shadow1_hover) !important;
+}
+
+[data-selector="Blog"]
+  div.notion-gallery-view
+  div.notion-collection-item
+  > a:active {
+  box-shadow: var(--shadow1) !important;
+}

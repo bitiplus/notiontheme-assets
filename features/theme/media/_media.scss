@@ -1,0 +1,17 @@
+/* Cover Image */
+div.notion-frame
+  > div.notion-scroller.vertical.horizontal
+  > div:nth-child(1)
+  > div:nth-child(1) {
+  height: auto !important;
+}
+
+div.notion-frame
+  > div.notion-scroller.vertical.horizontal
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div
+  > img {
+  height: var(--coverImageHeight) !important;
+}

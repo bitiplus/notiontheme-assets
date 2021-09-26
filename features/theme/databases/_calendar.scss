@@ -1,0 +1,12 @@
+/* -------------------------------- Calendar -------------------------------- */
+div.notion-calendar-view
+  div.notion-collection_view_page-block
+  > div:nth-child(3)
+  > div
+  > div {
+  background: var(--bg) !important;
+}
+
+div.notion-calendar-view div.notion-collection-item > a {
+  background: var(--bg) !important;
+}

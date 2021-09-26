@@ -1,0 +1,12 @@
+/* ---------------------------- 📌 UIs: buttons, icons, images 📌 --------------------------- */
+/* New Button */
+div.notion-collection-view-item-add > div:not(:last-child) {
+  background: var(--primary) !important;
+}
+
+/* Images */
+.notion-image-block {
+  border-radius: 2px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}

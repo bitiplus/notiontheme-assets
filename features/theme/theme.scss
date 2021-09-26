@@ -1,0 +1,12 @@
+@use "media/_media.scss";
+@use "_app.scss";
+// @use "header/header.scss";
+// @use "text/text.scss";
+@use "blocks/_blocks.scss";
+@use "databases/_databases.scss";
+
+@import "variables.scss";
+
+body {
+  background-color: var(--gray1);
+}

@@ -1,0 +1,18 @@
+/* ---------------------------------- Table --------------------------------- */
+div.notion-table-view > div.notion-collection_view-block > div,
+div.notion-table-view div.notion-collection_view_page-block > div,
+div.notion-calendar-view
+  > div.notion-collection_view_page-block
+  > div:first-child,
+div.notion-calendar-view > div.notion-collection_view-block > div:first-child,
+div.notion-calendar-view
+  > div.notion-collection_view-block
+  > div:last-child
+  > div
+  > div,
+div.notion-board-view > div > div:first-child,
+div.notion-board-view .notion-board-group > div a {
+  background: var(--bg) !important;
+}
+/* div.notion-calendar-view div.notion-collection_view_page-block > div */
+/* div.notion-calendar-view div.notion-collection_view_page-block > div */

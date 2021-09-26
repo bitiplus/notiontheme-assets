@@ -43,7 +43,7 @@ div.notion-frame > div:nth-child(2) > div:first-child {
 }
 
 /* Page Title */
-div[placeholder=Untitled] {
+div[placeholder="Untitled"] {
   left: 0px;
   right: auto !important;
 }
@@ -57,7 +57,12 @@ div.notion-peek-renderer div.notion-page-content div {
   text-align: right !important;
 }
 
-div.notion-peek-renderer > div > div.notion-scroller > div:nth-child(2) div:first-child > svg {
+div.notion-peek-renderer
+  > div
+  > div.notion-scroller
+  > div:nth-child(2)
+  div:first-child
+  > svg {
   margin-left: 6px;
 }
 
@@ -92,7 +97,7 @@ div.notion-gallery-view div.notion-collection-item div.notion-record-icon {
 }
 
 /* Div Buttons with Icons */
-div.notion-page-controls div[role=button] > svg {
+div.notion-page-controls div[role="button"] > svg {
   margin-left: 6px;
   margin-right: 0px !important;
 }
@@ -180,7 +185,12 @@ div.notion-timeline-view .notion-timeline-item-properties .notranslate {
   direction: rtl;
 }
 
-div.notion-timeline-view > div:nth-child(5) > div > div:nth-child(5) > div > div {
+div.notion-timeline-view
+  > div:nth-child(5)
+  > div
+  > div:nth-child(5)
+  > div
+  > div {
   justify-content: flex-start !important;
   padding-right: 0px !important;
   flex-direction: row-reverse;
