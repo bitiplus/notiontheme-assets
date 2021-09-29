@@ -1,9 +1,0 @@
-/* -------------------------------- 📌 Page Content 📌 -------------------------------- */
-div.notion-frame > div:nth-child(2) > div:not(first-child) {
-  direction: rtl !important;
-}
-
-/* div.notion-page-content div[contenteditable="true"] */
-div.notion-page-content > div {
-  text-align: right;
-}
